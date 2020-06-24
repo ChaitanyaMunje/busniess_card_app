@@ -7,10 +7,12 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
+
         backgroundColor: Colors.blue,
         appBar: AppBar(
             title: Text('Profile Screen Ui Design'),
@@ -18,6 +20,7 @@ class MyApp extends StatelessWidget {
         ),
         body: SafeArea(
           child: Column(
+
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: <Widget>[
               CircleAvatar(
